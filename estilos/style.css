@@ -13,6 +13,10 @@ body  {
     height: 100vw;
 }
 
+h1 {
+    font-family: 'Marcellus';
+}
+
 header {
     width: 1425px;
     background-color: rgb(19, 18, 18) ;
@@ -81,12 +85,13 @@ section#topo > div > div > h1 {
 }
 
 .espaco {
-    height: 400px;
+    height: 330px;
     
 }
 
 #img1sessao1 {
-    background-image: url(../imagens/pexels-lisha-riabinina-5175-37487.jpg);
+    background-image: url(../imagens/pexels-aulsh99-2860705.jpg);
+    border-radius: 5px;
     background-repeat: no-repeat;
     background-size: cover;
     top: 50%;
@@ -96,4 +101,42 @@ section#topo > div > div > h1 {
     width: 600px;
     background-color: black;
     height: 320px;
+}
+
+#titulo1sessao1 {
+    color: rgb(37, 35, 35);
+    font-size: 3.3em;
+    position: absolute;
+    top: 40px;
+    left: -504px;
+    white-space: nowrap;
+}
+
+#img2sessao2 {
+    background-image: url(../imagens/pexels-botond-czapp-37729641-7855356.jpg);
+    background-size: cover;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    transform: translate(-50%,-50%);
+    top: -130px;
+    left: 1060px;
+    height: 700px;
+    width: 600px;
+    background-color: black;
+}
+
+#caixatexto1 {
+    position: absolute;
+    top: 1300px;
+    left: 360px;
+    width: 300px;
+    height: 30px;
+    transform: translate(-50%, -50%);
+}
+
+#textosessao1 {
+    font-size: 1.2em;
+    text-align: left;
 }
