@@ -4,3 +4,96 @@
     margin: 0px;
     padding: 0px;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Nanum+Gothic&display=swap');
+
+body  {
+    font-family: 'Nanum Gothic';
+    width: 100vh;
+    height: 100vw;
+}
+
+header {
+    width: 1425px;
+    background-color: rgb(19, 18, 18) ;
+    height: 15px;
+}
+
+nav {
+    width: 1425px;
+    height: 35px;
+    text-align: right;
+    background-color: rgb(19, 18, 18);
+}
+
+nav > a {
+    margin: 0px;
+    padding: 0px;
+    margin-right: 40px;
+    text-align: right;
+    text-decoration: none;
+    color: white;
+}
+
+img {
+
+    width: 200px;
+}
+
+#img1topo {
+    position: relative;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../imagens/pexels-steve-1545505.jpg);
+    width: 800px;
+    height: 699px;
+}
+
+#img2topo {
+    background-image: url(../imagens/pexels-steve-4693136.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    top: 50%;
+    left: 120%;
+    transform: translate(-50% ,-50%);
+    position: absolute;
+    display: inline-block;
+    background-color: black;
+    width: 470px;
+    height: 500px;
+}
+
+
+span {
+    color: black;
+}
+
+section#topo > div > div > h1 {
+    white-space: nowrap;
+    position: absolute;
+    font-family: 'Marcellus';
+    font-size: 3.5em;
+    top: 200px;
+    left: -500px;
+    color: white;
+}
+
+.espaco {
+    height: 400px;
+    
+}
+
+#img1sessao1 {
+    background-image: url(../imagens/pexels-lisha-riabinina-5175-37487.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 50%;
+    left: 50%;
+    position: relative;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    background-color: black;
+    height: 320px;
+}
